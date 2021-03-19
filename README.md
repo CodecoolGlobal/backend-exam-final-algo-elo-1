@@ -1,22 +1,22 @@
-### What to print? You decide!
+### Mit kéne kiírni? Te döntöd el!
 
-You are being interviewed for a junior developer position. Your task is the following:
+Egy junior fejlesztői pozíciós interjún vagy. A feladatod a következő:
 
-Implement a method which gets two parameters:
+Implementálj egy metódust, amelynek két paramétere van:
 
-- a string array
-- an integer
+- egy string array
+- egy integer
 
-If the integer is divisible by `3` then return the **first** element of the _string array_.
-If the integer is divisible by `7` then return the **second** element of the _string array_.
-If the integer is divisible by `3` and also by `7`, then return a _string_ with the array's **first and second** elements concatenated (in the same order as they are in the array).
-In any other cases, return an **empty string**.
+Ha az integer osztható `3`-al, akkor return-öld az **első** elemét a _string array_-nek.
+Ha az integer osztható `7`-el, akkor return-öld a **második** elemét a _string array_-nek.
+Ha az integer osztható `3`-al és `7`-el, akkor return-ölj egy az array **első és második** elemeiből konkatenált _string_-et (ugyanabban a sorrendben, mint amilyenben az arrayben vannak).
+Minden másik esetben, return-ölj egy **üres string**-et.
 
-Examples:
-The string array input is `{"Code", "Cool"}`
-If the integer input is `9`, the method returns `"Code"`.
-If the integer input is `14`, the method returns `"Cool"`.
-If the integer input is `21`, the method returns `"CodeCool"`.
-If the integer input is `2`, the method returns `""`.
+Példák:
+A string array input `{"Code", "Cool"}`
+Ha az integer input `9`, a metódus `"Code"`-ot return-öl.
+Ha az integer input `14`, a metódus `"Cool"`-t return-öl.
+Ha az integer input `21`, a metódus `"CodeCool"`-t return-öl.
+Ha az integer input `2`, a metódus `""`-ot return-öl.
 
-Note: the string array input will always contain at least two items.
+Megjegyzés: a string array input mindig fog tartalmazni legalább két elemet.
