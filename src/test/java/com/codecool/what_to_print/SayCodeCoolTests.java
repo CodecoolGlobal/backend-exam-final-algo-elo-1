@@ -25,4 +25,9 @@ public class SayCodeCoolTests {
     public void testEmpthyString() {
         assertEquals("", Challenge.decideAndSay(words, 10));
     }
+
+    @Test
+    public void testNegative() {
+        assertEquals("Cool", Challenge.decideAndSay(words, -7));
+    }
 }
