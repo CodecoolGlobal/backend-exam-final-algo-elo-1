@@ -20,4 +20,9 @@ public class SayCodeCoolTests {
     public void testCodeCool() {
         assertEquals("CodeCool", Challenge.decideAndSay(words, 21));
     }
+
+    @Test
+    public void testEmpthyString() {
+        assertEquals("", Challenge.decideAndSay(words, 10));
+    }
 }
