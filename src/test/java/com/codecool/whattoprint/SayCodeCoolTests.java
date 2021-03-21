@@ -1,4 +1,4 @@
-package com.codecool.what_to_print;
+package com.codecool.whattoprint;
 
 import org.junit.Test;
 import static org.junit.Assert.*;

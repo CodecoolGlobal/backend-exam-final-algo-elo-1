@@ -1,4 +1,4 @@
-package com.codecool.what_to_print;
+package com.codecool.whattoprint;
 
 class Challenge {
     public static String decideAndSay(String[] words, int number) {
