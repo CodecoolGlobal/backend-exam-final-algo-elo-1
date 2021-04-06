@@ -1,10 +1,13 @@
 package com.codecool.whattoprint;
 
 
+import cccr.CCCRTestExecutionListener;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@ExtendWith({CCCRTestExecutionListener.class})
 public class SayCodeCoolTests {
     private final static String[] words = new String[]{"Code", "Cool", "Apple"};
 
